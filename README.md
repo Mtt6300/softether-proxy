@@ -1,3 +1,9 @@
+# softether-proxy
+
+
+
+## docker-compose.yml
+```yaml
 version: "3.8"
 services:
   vpn-proxy:
@@ -15,5 +21,6 @@ services:
       VPN_USERNAME: username
       VPN_PASSWORD: password
       VPN_GATEWAY: gateway
-      VPN_ROUTE: route-ip
+      VPN_ROUTE: route-ip1,route-ip2,route-ip3
       VPN_STATIC_CLIENT_IP: static-client-ip
+```
